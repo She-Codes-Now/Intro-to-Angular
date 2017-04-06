@@ -3,11 +3,11 @@
 <!-- live & editable at http://codepen.io/kaymckelly/pen/jBxZOv -->
 <html ng-app="todoApp">
   <head>
-    <title>Dynamic Module</title>
+    <title>To-Do List</title>
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <div id="main">
+    <div ng-app="todoApp" id="main">
       <div ng-controller="TodoListController as todoList" id="text">
         <span>
           {{todoList.remaining()}} of {{todoList.todos.length}} remaining

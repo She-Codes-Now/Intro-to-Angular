@@ -1,13 +1,10 @@
-// TODO: would be nice to have this be a little neater but I'm tired
-
 angular.module('todoApp', [])
   .controller('TodoListController', function() {
     var todoList = this;
     todoList.todos = [
       {text:'learn AngularJS', done:true},
-      {text:'build cool app', done:false},
-      {text:'profit', done:false}
-    ];
+      {text:'build Angular app', done:false},
+      {text:'profit', done:false}];
 
     todoList.addTodo = function() {
       todoList.todos.push({text:todoList.todoText, done:false});
