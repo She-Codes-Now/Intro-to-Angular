@@ -1,14 +1,7 @@
-# Angular class for She Codes Now
+# Intro to Angular
+This truly is an introductory class to Angular, with a focus on students who have very little or no professional experience as web developers. Starting from a basic definition of Angular, we will be building two versions of a Hello World app and a basic to-do list.
 
-I volunteered to design an hour and a half long workshop on Angular 1.x for [She Codes Now](https://www.meetup.com/She-Codes-Now/). At present, this repo contains related files to the course. The slides will be uploaded after the class.
+-Instructor: [@kaymckelly](https://github.com/kaymckelly)
 
-I've been teaching for the better part of a decade in various fields (web development, sociology, and midwifery, to name a few). Teaching is one of the ways I learn, so when I teach I'm also learning. I believe in a peer-to-peer approach to teaching rather than the more traditional top-down approach. Everybody has something to learn from everybody else.
-
-
-### Current class outline
-1. What is Angular?
-2. Pros & cons
-3. Quick start guide
-4. Style guide
-5. Build a to-do list app
-6. Q&A
+## Prerequisites:
+You should have at least a basic understanding of HTML, CSS, and JavaScript.
