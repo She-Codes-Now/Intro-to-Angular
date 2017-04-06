@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+  padding: 20px;
+  font-size: 2em;
+}
+
+#main {
+  background-color: rgba(191, 115, 182, 0.70);
+  padding: 40px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+#text {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  color: #606060;
+  text-align: center;
+  width: 100%;
+}

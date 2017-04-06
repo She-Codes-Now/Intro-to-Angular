@@ -1,0 +1,25 @@
+<!doctype html>
+<!-- example from https://angularjs.org/, custom CSS added by me -->
+<!-- live & editable at http://codepen.io/kaymckelly/pen/ZeabVN -->
+<html ng-app="myApp">
+  <head>
+    <title>Dynamic Module</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div id="main">
+      <div id="text">
+        <label id="inputLabel">
+          Name:
+        </label>
+        <input type="text" ng-model="yourName" placeholder="Enter your name here" />
+        <hr />
+        <p>
+          Hello {{yourName}}
+        </p>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

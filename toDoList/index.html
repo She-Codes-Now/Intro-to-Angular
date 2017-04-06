@@ -1,0 +1,36 @@
+<!doctype html>
+<!-- example from https://angularjs.org/, custom CSS by me -->
+<!-- live & editable at http://codepen.io/kaymckelly/pen/jBxZOv -->
+<html ng-app="todoApp">
+  <head>
+    <title>Dynamic Module</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div id="main">
+      <div ng-controller="TodoListController as todoList" id="text">
+        <span>
+          {{todoList.remaining()}} of {{todoList.todos.length}} remaining
+        </span>
+        &rarr;
+        <a href="" ng-click="todoList.archive()" class="linkStyle">archive?</a>
+        <ul class="unstyled">
+          <li ng-repeat="todo in todoList.todos">
+            <label class="checkbox" />
+              <input type="checkbox" ng-model="todo.done" />
+              <span class="done-{{todo.done}}">
+                {{todo.text}}
+              </span>
+            </label>
+          </li>
+        </ul>
+        <form ng-submit="todoList.addTodo()">
+          <input type="text" ng-model="todoList.todoText" placeholder="Add new todo item" class="newItem" />
+          <input class="button newItem" type="submit" value="add" />
+        </form>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
