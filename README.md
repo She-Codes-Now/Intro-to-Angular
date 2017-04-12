@@ -1,7 +1,7 @@
 # Intro to Angular
-We'll be building a "Hello World" app to start, and then a simple "To-Do List" app. 
+This truly is an introductory class to Angular, with a focus on students who have very little or no professional experience as web developers. Starting from a basic definition of Angular, we will be building two versions of a Hello World app and a basic to-do list.
 
-Instructor: @kaymckelly
+-Instructor: [@kaymckelly](https://github.com/kaymckelly)
 
-## Prerequisites: 
-You must have at least a basic understanding of HTML and/or JavaScript.
+## Prerequisites:
+You should have at least a basic understanding of HTML, CSS, and JavaScript.
