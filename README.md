@@ -8,5 +8,7 @@ You should have at least a basic understanding of HTML, CSS, and JavaScript.
 
 ### CodePens Used in class:
 Dynamic Module - http://codepen.io/kaymckelly/pen/ZeabVN 
+
 Static Module Example - http://codepen.io/kaymckelly/pen/wJrmZE 
+
 To-Do List app Example - http://codepen.io/kaymckelly/pen/jBxZOv
